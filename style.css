@@ -1,0 +1,122 @@
+/*!
+Theme Name: Galaxy
+Theme URI: https://github.com/melvinlemoine/WordPress-theme-boilerplate
+Author: Steven Lebrun
+Author URI: https://melvin-lemoine.me
+Description: Ceci est mon thème perso !
+Version: 1.1
+*/
+
+/*------------------- Front-Page----------------*/
+body
+{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header
+{
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#texte_header
+{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 55%;
+}
+#texte_header h1
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#texte_header p
+{
+    font-size: 22px;
+}
+#texte_header input
+{
+    width: 80%;
+    padding: 15px 7px;
+    border-radius: 10px;
+    border: none;
+}
+
+h2
+{
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*------------------- Front-Page----------------*/
+
+
+/*------------------- Menu Navigation Header----------------*/
+nav ul
+{
+    list-style: none;
+    display: flex;
+}
+
+nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+nav ul a
+{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 22px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+nav ul a:hover
+{
+    background-color: #50f2dd;
+    border-radius: 7px;
+    padding: 10px 8px
+}
+
+nav p
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    background-color:#50f2dd ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 15px;
+    border-radius: 7px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#droite
+{
+    font-size: 22px;
+}
+#droite i
+{
+    margin-right: 20px;
+    color: #50f2dd;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px;
+}
+#gauche 
+{
+    display: flex;
+}
+.yelow
+{
+    background-color: orangered;
+}
+
+.primary
+{
+    background-color: yellow;
+}
